@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="outdoor games.css">
+  <link rel="stylesheet" href="style.css">
+  
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet"> 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body,p {
+        font-family: "Fredoka", serif;
+        font-optical-sizing: auto;
+        
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+   </style>
+   <style>
+    .logo-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        gap: 5px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .navbar {
+        justify-content: center;
+        
+    }
+    .collapse{
+      justify-content: center;
+    }
+  
+
+
+    @media (max-width: 991px) {
+        .navbar {
+            justify-content: flex-start;
+        }
+
+        .logo-section {
+            justify-content: center;
+            margin: 10px 0;
+        }
+    }
+</style>
+
+
+</head>
+
+
+
+  <body>
+   
+   <!---- logo START ---->
+   <a class="navbar-brand mx-auto mx-lg-0" href="#">
+    <div class="logo-section">
+        <div class="main">
+            <div class="letter pink">P</div>
+            <div class="letter green">I</div>
+            <div class="letter yellow">C</div>
+            <div class="letter blue">N</div>
+            <div class="letter">I</div>
+            <div class="letter green">C</div>
+            <div class="letter blue">G</div>
+            <div class="letter yellow">A</div>
+            <div class="letter">M</div>
+            <div class="letter red">E</div>
+            <div class="letter purple">S</div>
+        </div>
+    </div>
+</a>
+<!-- logo end -->
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <!-- Toggle button for mobile -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav text-center ">
+                  <li class="nav-item">
+                      <a class="nav-link text-success" href="index.html" style="font-size: 20px;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-danger" href="About.html" style="font-size: 20px;">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-dark" href="contact.html" style="font-size: 20px;">Contact</a>
+                  </li>
+
+                  <!-- Games Dropdown -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-info" href="#" id="gamesDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false"style="font-size: 20px;">Games</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-danger" href="outdoorgames.html"style="font-size: 20px;">Outdoor</a></li>
+                          <li><a class="dropdown-item text-success" href="Indoor games.html"style="font-size: 20px;">Indoor</a></li>
+                      </ul>
+                  </li>
+
+                  <!-- Activities Dropdown -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-primary" href="#" id="activitiesDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 20px;">Activities</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-success" href="Activities__Summer.html"style="font-size: 20px;">Summer</a></li>
+                          <li><a class="dropdown-item text-danger" href="Activities__Winter.html"style="font-size: 20px;">Winter</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <!---- NavBar END ---->
+    <!-- Div start -->
+    <div data-aos="fade-right">
+    <div class="container-fluid" style=" border-radius: 500px;">
+      <div class="row">
+        <div class="col-md-12 mt-4">
+          <div class="card  text-bg-dark  ">
+            <img src="./IMAGES/Main outdoor images/man main outdoor.jpg" class="card-img mw-100" style="height: 700px;">
+            <div class="card-img-overlay">
+              <h5 class="card-title" id="maindiv" style="padding-top: 270px;color:rgb(252, 245, 251)">OUTDOOR GAMES</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- div end-->
+
+    <!-- buttons start -->
+    <div class="container abc mt-5">
+
+      <a class="btn" href="males outdoor game.html" role="button" style="margin-left: 10%"><b>MALE</b></a>
+      <a class="btn" href="female outdoor games .html" role="button" style="margin-left: 12% ;"><b>FEMALE</b></a>
+      <a class="btn" href="familyoutdoor.html" role="button" style="margin-left: 12%"><b>FAMILY</b></a>
+      <a class="btn" href="Kids outdoor game.html" role="button" style="margin-left: 10%"><b>KIDS</b></a>
+    </div>
+    <!-- buttons end -->
+    <!-- cards start -->
+    <div data-aos="fade-up"
+    data-aos-duration="3000">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./IMAGES/Main outdoor images/main outdoor.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FOOT BALL</h5>
+                <blockquote id="bq"> Challenge accepted! Nothing like a friendly game to ignite the spirit. </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./IMAGES/Main outdoor images/girls main im.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GIRLS PLAYING</h5>
+                <blockquote id="bq">" Pedal your way to laughter and unforgettable memories!"
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="IMAGES/Main outdoor images/main family.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FAMILY TIME</h5>
+                <blockquote id="bq">Every game is a masterpiece when painted with family laughter.</blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./IMAGES/Main outdoor images/kids main game.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KIDS PLAYING</h5>
+              <blockquote id="bq">  Play hard, laugh louder, and make memories that sparkle! </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+        <!-- cards end -->
+
+
+
+
+        <!-- footer start-->
+        <footer class="text-center text-white" style=" background: linear-gradient(rgb(252, 249, 252) 29.13%, rgb(97, 2, 79) 100%);">
+          <!-- Grid container -->
+          <div class="container p-4 mt-5">
+            <!-- Section: Iframe -->
+            <section class="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="ratio ratio-16x9">
+                    <iframe class="shadow-1-strong rounded" src="videos/kids/kids outdoor jumping.mp4" 
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Section: Iframe -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2025 Copyright:
+            
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- footer end -->
+
+  </body>
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

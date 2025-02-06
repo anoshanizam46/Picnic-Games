@@ -1,0 +1,27 @@
+div#fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+div.row .col .card .card-body button {
+    background-color:  #4c92bb;
+    color: black;
+    border-radius: 55px;
+    border: none;
+    font-weight: 400;
+    margin-left: 130px;
+    color: white;
+}
+
+div.row .col .card .card-body button:hover {
+    background-color: #97c8e4;
+    border: none;
+    color: black;
+    
+}
+.dropdown-item:hover {
+    background-color: rgb(189, 236, 255);
+    color: #000;
+    border-radius: 0 30px;
+    padding-left: 10px;
+    transition: .5s ease;}

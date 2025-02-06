@@ -1,0 +1,147 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(83, 80, 80, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 16px;
+    position: relative;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+}
+
+.navbar .dropdown-content a {
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(189, 236, 255);
+    color: #000;
+    border-radius: 0 30px;
+    padding-left: 10px;
+    transition: .5s ease;
+
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo-section {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+    max-width: 100%;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+    font-family: 'Fredoka One', cursive;
+}
+
+.main {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: bounce 1s infinite alternate;
+}
+
+.letter {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.yellow {
+    color: rgb(252, 236, 3);
+}
+
+.pink {
+    color: rgb(241, 138, 255);
+}
+
+.green {
+    color: #66BB6A;
+}
+
+.blue {
+    color: rgb(150, 218, 218);
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.buy-now {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.section form div#div button:hover {
+    background-color: orange;
+    color: white;
+}

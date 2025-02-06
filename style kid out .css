@@ -1,0 +1,143 @@
+.card {
+    width: 24rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(128, 126, 125, 0.9);
+   
+}
+
+.btn:hover {
+    background-color: rgb(39, 35, 75);
+    color: aliceblue;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #727fae;
+    color: rgb(31, 33, 105);
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.cont {
+    background: linear-gradient(rgb(255, 255, 255) 29.13%, rgb(42, 57, 151) 100%);
+    height: 750px;
+}
+
+pre {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(5, 5, 82);
+    padding-top: 20px;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+#head{
+    border-radius: 20px;
+    margin-top: 110px;
+    margin-left: 0px;
+    padding: 70px auto;
+    border: 10px solid rgb(255, 251, 251);
+    width: 700px;
+}
+#video1{
+    margin-top: 8%;
+    
+   
+   
+    
+}
+
+video{
+    border-radius: 50px;}
+   
+#bg-blue{
+    background-color: blue;
+
+}
+#video1{
+    margin-top: 8%;
+    
+}
+video{
+    border-radius: 50px;
+}
+
+
+  /* Logo section styling */
+  .logo-section {
+    text-align: center; /* Center logo in the container */
+    padding: 10px;
+    background-color: #fff; /* White background for the logo container */
+
+    display: inline-block;
+    max-width: 100%;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out; /* Fade-in effect for the logo */
+    font-family: 'Fredoka One', cursive;
+}
+
+.main {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: bounce 1s infinite alternate;
+}
+
+/* Styling individual letters */
+.letter {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.yellow {
+    color: rgb(252, 236, 3);
+}
+
+.pink {
+    color: rgb(241, 138, 255);
+}
+
+.green {
+    color: #66BB6A;
+}
+
+.blue {
+    color: rgb(150, 218, 218);
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Fade-in animation for logo section */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

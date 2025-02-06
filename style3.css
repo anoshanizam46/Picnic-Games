@@ -1,0 +1,11 @@
+div.row .col .card .card-body button {
+    background-color:rgb(255, 253, 163);
+    color: black;
+    border-radius: 55px;
+    border: none;
+    margin-left: 130px ;
+}
+div.row .col .card .card-body button:hover {
+    background-color: rgb(255, 251, 22);
+    border: none;
+}

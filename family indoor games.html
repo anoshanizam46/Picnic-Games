@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="style1.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style family ind .css">
+  <link rel="stylesheet" href=" https://fonts.googleapis.com/css?family='Tangerine'&effect=shadow-multiple|3d">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet"> 
+  <style>
+     
+      .logo-section {
+        text-align: center;
+        padding: 10px;
+        background-color: #fff; 
+   
+        display: inline-block;
+        max-width: 100%;
+        margin: 20px 0;
+        animation: fadeIn 2s ease-in-out; 
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .main {
+        display: flex;
+        font-size: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        animation: bounce 1s infinite alternate;
+    }
+
+    /* Styling individual letters */
+    .letter {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    .yellow {
+        color: rgb(252, 236, 3);
+    }
+
+    .pink {
+        color: rgb(241, 138, 255);
+    }
+
+    .green {
+        color: #66BB6A;
+    }
+
+    .blue {
+        color: rgb(150, 218, 218);
+    }
+
+    .red {
+        color: red;
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    /* Bounce animation */
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-15px);
+        }
+    }
+
+    /* Fade-in animation for logo section */
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+      body,p {
+          font-family: "Fredoka", serif;
+          font-optical-sizing: auto;
+          
+          font-style: normal;
+          font-variation-settings:
+            "wdth" 100;
+        }
+     
+  </style>
+  <style>
+  
+body,p {
+  font-family: "Fredoka", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.card-text{
+  font-size: 18px;
+}
+    
+  </style>
+  <style>
+    .logo-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        gap: 5px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .navbar {
+        justify-content: center;
+         
+    }
+    .collapse{
+        justify-content: center;
+    }
+
+
+    @media (max-width: 991px) {
+        .navbar {
+            justify-content: flex-start;
+        }
+
+        .logo-section {
+            justify-content: center;
+            margin: 10px 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+  <!---- logo START ---->
+  <a class="navbar-brand mx-auto mx-lg-0" href="#">
+    <div class="logo-section">
+        <div class="main">
+            <div class="letter pink">P</div>
+            <div class="letter green">I</div>
+            <div class="letter yellow">C</div>
+            <div class="letter blue">N</div>
+            <div class="letter">I</div>
+            <div class="letter green">C</div>
+            <div class="letter blue">G</div>
+            <div class="letter yellow">A</div>
+            <div class="letter">M</div>
+            <div class="letter red">E</div>
+            <div class="letter purple">S</div>
+        </div>
+    </div>
+</a>
+<!-- logo end -->
+
+<!-- nav bar start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <!-- Toggle button for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center ">
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="index.html" style="font-size: 20px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="About.html" style="font-size: 20px;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="contact.html" style="font-size: 20px;">Contact</a>
+                </li>
+
+                <!-- Games Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-info" href="#" id="gamesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false"style="font-size: 20px;">Games</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-danger" href="outdoorgames.html"style="font-size: 20px;">Outdoor</a></li>
+                        <li><a class="dropdown-item text-success" href="Indoor_games.html"style="font-size: 20px;">Indoor</a></li>
+                    </ul>
+                </li>
+
+                <!-- Activities Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-primary" href="#" id="activitiesDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 20px;">Activities</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-success" href="Activities__Summer.html"style="font-size: 20px;">Summer</a></li>
+                        <li><a class="dropdown-item text-danger" href="Activities__Winter.html"style="font-size: 20px;">Winter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!---- NavBar END ---->
+
+  <!-- upper div start -->
+  <div data-aos="fade-up" data-aos-duration="2000">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 container-fluid">
+          
+          <pre>
+EXPLORE THE 
+EXCITING  
+FAMILY 
+INDOOR 
+GAMES
+                  </pre>
+                
+                  
+
+        </div>
+        <div class="col-md-6">
+          <img src="./IMAGES/Indoor images/FAMILY/family indoor img.jpg" alt="" id="head">
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="3000">
+      <!-- upper div end -->
+
+     <!-- cards start -->
+     <div class="container">
+      <div class="row mt-5 ">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="./IMAGES/Indoor images/FAMILY/Build a Fort.avif" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+              <h5 class="card-title">BUILD A FORT</h5>
+              <p class="card-text"style="font-size:20px">"Build a Fort" is a creative, multiplayer game where players gather resources and
+                work together to construct elaborate forts. The goal is to defend the fort from opponents while enhancing its structure and features.Unleash your creativity. </p>
+              <a href="https://www.youtube.com/watch?v=C_9m2fpfD4A&pp=ygUdaG93IHRvIHBsYXkgYnVpbHQgYSBmb3J0IGdhbWU%3D" class="btn" role="button">HOW TO PLAY</a>
+              <a class="btn" id="btn1">WORD DOC</a>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card  h-100"  style="height: 530px;">
+            <img src="./IMAGES/Indoor images/FAMILY/ludo game.jpg" class="card-img-top" alt="..." height="270px">
+            <div class="card-body">
+              <h5 class="card-title">LUDO</h5>
+              <p class="card-text" style="font-size:20px">Ludo is a classic board game where players race their tokens around the board based
+                on dice rolls. The objective is to be the first to move all your tokens from start to finish while avoiding
+                being sent back by opponents.</p>
+              <a href="https://www.youtube.com/watch?v=xYXj9DwKHr4&pp=ygUVaG93IHRvIHBsYXkgbHVkbyBnYW1l" class="btn" role="button">HOW TO PLAY</a>
+              <a class="btn" id="btn2" role="button">WORD DOC</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card  h-100" style="height: 530px;">
+            <img src="./IMAGES/Indoor images/FAMILY/memory game family.jpg" class="card-img-top" alt="..."
+              height="270px">
+            <div class="card-body">
+              <h5 class="card-title">MEMORY</h5>
+              <p class="card-text" style="font-size:20px">Memory is a card-matching game where players take turns flipping over cards to find
+                pairs of matching images. The goal is to remember the locations of the cards and match them to win.Test your memory,sharpen your mind.
+              </p>
+              <a href="https://www.youtube.com/watch?v=oFfYmrGeTPs&pp=ygUXaG93IHRvIHBsYXkgbWVtb3J5IGdhbWU%3D" class="btn" role="button" >HOW TO PLAY</a>
+              <a  class="btn" role="button" id="btn3" >WORD DOC</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <div class="row mt-5 ">
+          <div class="col-md-4 ">
+            <div class="card  h-100">
+              <img src="./IMAGES/Indoor images/FAMILY/family monopoly.jpg" class="card-img-top" alt="..."
+                height="270px">
+              <div class="card-body">
+                <h5 class="card-title">MONOPOLY</h5>
+                <p class="card-text"style="font-size:20px">Monopoly is a strategic board game where players buy, sell, and trade properties
+                  to accumulate wealth. The goal is to bankrupt opponents by charging rent and making smart
+                  investments.</p>
+                <a href="https://www.youtube.com/watch?v=AuWvMgYv03g&pp=ygUPaG93IHRvIG1vbm9wb2x5" class="btn" role="button" style="margin-top: 30px;">HOW TO PLAY</a>
+                <a id="btn4" class="btn" role="button"  style="margin-top: 30px;">WORD DOC</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card  h-100">
+              <img src="./IMAGES/Indoor images/FAMILY/family uno.jpg" class="card-img-top" alt="..." height="270px">
+              <div class="card-body">
+                <h5 class="card-title">UNO</h5>
+                <p class="card-text"style="font-size:20px">UNO is a fast-paced card game where players aim to be the first to play all their
+                  cards by matching colors or numbers. Special action cards add strategy and excitement, allowing
+                  players to skip, reverse, or change the game rules.</p>
+                <a href="https://www.youtube.com/watch?v=sWoSZmHsCls&t=63s&pp=ygUNaG93IHRvIHVubyBnYQ%3D%3D" class="btn" role="button">HOW TO PLAY</a>
+                <a  id="btn5" class="btn" role="button">WORD DOC</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="card  h-100">
+              <img src="./IMAGES/Indoor images/FAMILY/carom.jpg" class="card-img-top" alt="..." height="270px "
+                width="0px">
+              <div class="card-body">
+                <h5 class="card-title">CARROM</h5>
+                <p class="card-text"style="font-size:20px">Carrom is a popular indoor game, often played on a square wooden board. Players
+                  use a striker to flick wooden discs, aiming to sink them into the corner pockets. It’s usually
+                  played by two or four players, either in singles or doubles.
+                </p>
+                <a href="https://www.youtube.com/watch?v=qVjo0gDl1Dk&t=131s&pp=ygUSaG93IHRvIGNhcnJvbSBnYW1l" class="btn " role="button">HOW TO PLAY</a>
+               <a class="btn" role="button" id="btn6" >WORD DOC</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cards end -->
+
+
+      <!-- video start -->
+      <div class="container mt-5 "  id="video1">
+        <video src="./videos/family/family indoor (2).mp4" controls autoplay width="100%" height="100%" m-5 style="border-radius:15px"></video>
+      </div>
+     
+      <!-- video end -->
+      <div class="text-center p-3 mt-5" style="background-color: rgb(12, 12, 12);color: white;">
+        © 2025 Copyright:
+         
+       </div>
+      
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="jQuery.js"></script>
+  <script>
+    document.getElementById('btn1').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='WORD DOUCMENT/FAMILY INDOOR GAME WD/BUILD A FORT1.pdf';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "FAMILY INDOOR GAME (BUILD A FORT).pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    document.getElementById('btn2').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='WORD DOUCMENT/FAMILY INDOOR GAME WD/LUDO GAME.pdf';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "FAMILY INDOOR GAME ().pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    document.getElementById('btn3').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='WORD DOUCMENT/FAMILY INDOOR GAME WD/MEMORY GAME.pdf';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "FAMILY INDOOR GAME WD/BUILD A FORT1.pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    document.getElementById('btn4').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='WORD DOUCMENT/FAMILY INDOOR GAME WD/LUDO GAME.pdf';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "FAMILY INDOOR GAME WD/BUILD A FORT1.pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    document.getElementById('btn5').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='WORD DOUCMENT/FAMILY INDOOR GAME WD/MONOPOLY GAME.pdf';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "WORD DOUCMENT/FAMILY INDOOR GAME WD/MONOPOLY GAME.pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    document.getElementById('btn6').addEventListener('click',function(event){
+    event.preventDefault();
+    const pdfUrl ='';
+    const link = document.createElement('a')
+    link.href = pdfUrl;
+    link.download = "FAMILY INDOOR GAME WD/BUILD A FORT1.pdf";
+    document.body.appendChild(link)
+    link.click();
+    document.body.removeChild(link)
+  
+  })
+    
+  
+</script>
+</script>
+
+</html>
